@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() 
+{
+    int suma = 0;
+    int numero = 10;
+
+    while (numero <= 50) 
+    {
+        if (numero % 2 == 0) 
+        {
+            suma += numero;
+        }
+        numero++;
+    }
+
+    printf("La suma de los números pares entre 10 y 50 es: %d\n", suma);
+    return 0;
+}
