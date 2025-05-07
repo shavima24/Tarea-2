@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    int num1, num2;
+
+    // Solicitar entrada al usuario
+    printf("Ingrese el primer número: ");
+    scanf("%d", &num1);
+    printf("Ingrese el segundo número: ");
+    scanf("%d", &num2);
+
+    // Verificar si num2 es divisor de num1
+    if (num2 != 0) { // Evitar la división por cero
+        if (num1 % num2 == 0) {
+            printf("%d es divisible por %d.\n", num1, num2);
+        } else {
+            printf("%d no es divisible por %d.\n", num1, num2);
+        }
+    } else {
+        printf("El segundo número no puede ser cero.\n");
+    }
+
+    return 0;
+}
