@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main() 
+{
+    float distancia_ida, distancia_total, precio_km = 0.23, precio_total;
+    int dias_estancia;
+
+    // Solicitar distancia de ida y días de estancia
+    printf("Ingrese la distancia de ida en km: ");
+    scanf("%f", &distancia_ida);
+    printf("Ingrese el número de días de estancia: ");
+    scanf("%d", &dias_estancia);
+
+    // Calcular distancia total
+    distancia_total = distancia_ida * 2;
+
+    // Calcular precio total sin descuento
+    precio_total = distancia_total * precio_km;
+
+    // Aplicar descuento si corresponde
+    if (dias_estancia > 7 && distancia_total > 800) {
+        precio_total *= 0.7; // Aplicar 30% de descuento
+    }
+
+    // Mostrar el precio final
+    printf("El precio total del boleto es: $%.2f\n", precio_total);
+
+    return 0;
+}
