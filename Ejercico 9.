@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int N, i;
+
+    // Solicitar al usuario el número N
+    printf("Ingrese un número entero: ");
+    scanf("%d", &N);
+
+    // Generar la tabla de multiplicar usando un bucle for
+    printf("Tabla de multiplicar del %d:\n", N);
+    for (i = 1; i <= 10; i++) {
+        printf("%d x %d = %d\n", N, i, N * i);
+    }
+
+    return 0;
+}
