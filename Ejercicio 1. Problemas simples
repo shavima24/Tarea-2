@@ -15,9 +15,9 @@ int main()
     multiplicacion = num1 * num2;
 
     // Mostrar los resultados
-    printf("Suma: %d\\n", suma);
-    printf("Resta: %d\\n", resta);
-    printf("Multiplicación: %d\\n", multiplicacion);
+    printf("Suma: %d\n", suma);
+    printf("Resta: %d\n", resta);
+    printf("Multiplicación: %d\n", multiplicacion);
 
     return 0;
 }
