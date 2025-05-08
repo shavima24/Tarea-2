@@ -5,16 +5,13 @@ int main()
     int num1, num2;
     int suma, resta, multiplicacion;
 
-    // Solicitar dos números al usuario
     printf("Ingresa dos números: ");
     scanf("%d %d", &num1, &num2);
 
-    // Calcular suma, resta y multiplicación
     suma = num1 + num2;
     resta = num1 - num2;
     multiplicacion = num1 * num2;
 
-    // Mostrar los resultados
     printf("Suma: %d\n", suma);
     printf("Resta: %d\n", resta);
     printf("Multiplicación: %d\n", multiplicacion);
