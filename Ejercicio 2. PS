@@ -5,15 +5,12 @@ int main()
 {
     float radio, area, circunferencia;
 
-    // Solicitar al usuario el radio
     printf("Ingrese el radio del círculo: ");
     scanf("%f", &radio);
 
-    // Calcular área y circunferencia
     area = PI * radio * radio;
     circunferencia = 2 * PI * radio;
 
-    // Mostrar resultados
     printf("El área del círculo es: %.2f\n", area);
     printf("La circunferencia del círculo es: %.2f\n", circunferencia);
 
