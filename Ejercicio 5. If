@@ -7,11 +7,14 @@ int main()
     printf("Ingrese el monto de la compra: ");
     scanf("%f", &montoCompra);
     
-    if (montoCompra > 2500) {
-        montoFinal = montoCompra * 0.92; // Aplicando 8% de descuento
-    } else {
-        montoFinal = montoCompra;
-    }
+    if (montoCompra > 2500)
+{
+     montoFinal = montoCompra * 0.92; 
+} 
+else 
+{
+    montoFinal = montoCompra;
+}
     
     printf("El monto final a pagar es: %.2f\n", montoFinal);
     
