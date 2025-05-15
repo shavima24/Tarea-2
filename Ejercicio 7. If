@@ -14,7 +14,8 @@ int main()
 
     precio_total = distancia_total * precio_km;
 
-    if (dias_estancia > 7 && distancia_total > 800) {
+    if (dias_estancia > 7 && distancia_total > 800)
+    {
         precio_total *= 0.7; // Aplicar 30% de descuento
     }
 
